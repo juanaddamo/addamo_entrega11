@@ -1,0 +1,23 @@
+.footerUno{
+    margin: .5rem;
+    font-family: 'Open Sans';
+    background-image: linear-gradient($colorOscuro, $colorClaro);
+    text-align: center;
+    align-items: center;
+    color: $colorNegro;
+    .imagenContacto{
+        display: flex;
+        justify-content: space-evenly;
+        margin: 1rem;
+        padding: 1rem;
+        .imagenContacto1{
+            transform: scale(1.3);
+        }
+        .imagenContacto2{
+            transform: scale(1.3);
+        }
+        .imagenContacto3{
+            transform: scale(1.3);
+        }
+    }
+}

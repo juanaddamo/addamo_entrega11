@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.header-principal .navbar {
+  background-color: #d49d81;
+  font-family: 'Open Sans'; }
+  .header-principal .navbar .container-fluid .imagenLogo:hover {
+    transform: scale(1.1); }
+  .header-principal .navbar .container-fluid .collapse .navbar-nav .nav-item .dropdown-menu {
+    background-color: #d49d81; }
+
+.footerUno {
+  margin: .5rem;
+  font-family: 'Open Sans';
+  background-image: linear-gradient(#B4846C, #fcd4c0);
+  text-align: center;
+  align-items: center;
+  color: black; }
+  .footerUno .imagenContacto {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1rem;
+    padding: 1rem; }
+    .footerUno .imagenContacto .imagenContacto1 {
+      transform: scale(1.3); }
+    .footerUno .imagenContacto .imagenContacto2 {
+      transform: scale(1.3); }
+    .footerUno .imagenContacto .imagenContacto3 {
+      transform: scale(1.3); }
+
+body {
+  background-image: url(../img/fondo_annies.png);
+  font-family: 'Open Sans';
+  padding-top: 7rem; }
+
+.estiloIndex {
+  display: grid;
+  grid-template-areas: "saludoUno" "parrafoDescriptivo" "carousel";
+  grid-template-columns: 320px;
+  justify-content: center;
+  align-content: center; }
+  .estiloIndex .saludoUno {
+    grid-area: saludoUno;
+    text-align: center; }
+  .estiloIndex .parrafoDescriptivo {
+    grid-area: parrafoDescriptivo;
+    margin: 0.5rem;
+    text-align: center;
+    font-size: 1.2rem; }
+  .estiloIndex .carousel {
+    grid-area: carousel;
+    padding: 0.5rem; }
+
+@media screen and (min-width: 768px) {
+  .estiloIndex {
+    grid-template-columns: 544px; } }
+
+@media screen and (min-width: 1024px) {
+  .estiloIndex {
+    grid-template-columns: 800px; } }

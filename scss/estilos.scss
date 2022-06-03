@@ -1,0 +1,45 @@
+// reset
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// import
+@import "utilities/variables";
+@import "header";
+@import "footer";
+
+
+// nesting del archivo index.html
+body{
+    background-image: url(../img/fondo_annies.png);
+    font-family: 'Open Sans';
+    padding-top: 7rem;
+}
+
+.estiloIndex{
+    display: grid;
+    grid-template-areas: "saludoUno"
+    "parrafoDescriptivo"
+    "carousel";
+    grid-template-columns: $medidaMobile;
+    justify-content: center;
+    align-content: center;
+    .saludoUno{
+        grid-area: saludoUno;
+        text-align: center;  
+    }
+    .parrafoDescriptivo{
+        grid-area: parrafoDescriptivo;
+        margin: 0.5rem;
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    .carousel{
+        grid-area: carousel;
+        padding: 0.5rem;
+    }
+}
+
+@import "mediaqueries";
