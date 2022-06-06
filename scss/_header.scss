@@ -8,32 +8,12 @@
             .imagenLogo:hover{
                 transform: scale(1.1);
             }
-            .navbar-toggler{
-                .navbar-toggler-icon{
-                }
-            }
             .collapse{
-                .navbar-nav{
-                    .nav-item{
-                        .nav-link{
+                .nav-item{
+                    .nav-link{
                         }
-                    }
-                    .nav-item{
-                        .nav-link{
-                        }
-                    }
-                    .nav-item{
-                        .nav-link{
-                        }
-                        .dropdown-menu{
-                                background-color: $colorMedio;
-                                .dropdown-item{
-                                }
-                                .dropdown-divider{
-                                }
-                                .dropdown-item{
-                                }
-                        }
+                    .dropdown-menu{
+                        background-color: $colorMedio;
                     }
                 }
             }
